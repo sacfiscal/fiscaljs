@@ -1,0 +1,27 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Testing related
+coverage/
+
+# Dist
+dist/*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Yarn
+yarn.lock
+
+# dotenv environment variables file
+.env
+.env.test
+
+# macos
+.DS_Store

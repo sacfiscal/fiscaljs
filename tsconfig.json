@@ -1,0 +1,57 @@
+{
+    "compilerOptions": {
+        /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+        "target": "es2022",
+
+        /* Specify a set of bundled library declaration files that describe the target runtime environment. */
+        "lib": ["es2022"],
+
+        /* Search under node_modules for non-relative imports */
+        "moduleResolution": "node",
+
+        /* Enable experimental support for TC39 stage 2 draft decorators. */
+        "experimentalDecorators": true,
+
+        /* Emit design-type metadata for decorated declarations in source files. */
+        "emitDecoratorMetadata": true,
+
+        /* Specify an output folder for all emitted files. */
+        "outDir": "./dist",
+
+        /* Specify the root folder within your source files. */
+        "rootDir": "./src",
+
+        /* Specify the base directory to resolve non-relative module names. */
+        "baseUrl": ".",
+
+        /* Custom aliases */
+        "paths": {
+            "@implementacoes/*": ["./src/implementacoes/*"],
+            "@interfaces/*": ["./src/interfaces/*"],
+            "@utils/*": ["./src/utils/*"],
+            "~/*": ["./src/*"]
+        },
+
+        /* Allow JavaScript files to be a part of your program. Use the `checkJS` option to get errors from these files. */
+        "allowJs": true,
+
+        /* Disable emitting comments. */
+        "removeComments": false,
+
+        /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility. */
+        "esModuleInterop": true,
+
+        /* Ensure that casing is correct in imports. */
+        "forceConsistentCasingInFileNames": true,
+
+        /* Skip type checking all .d.ts files. */
+        "skipLibCheck": false,
+
+        // configura para exportar somente a tipagem
+        "declaration": true,
+
+        /* Disallow features that require cross-file information for emit. */
+        "isolatedModules": true
+    },
+    "include": ["src/**/*"]
+}

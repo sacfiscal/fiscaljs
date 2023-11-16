@@ -1,0 +1,27 @@
+module.exports = {
+    coverageDirectory: "../coverage",
+    coveragePathIgnorePatterns: ["<rootDir>/node_modules"],
+    collectCoverageFrom: [
+        "src/**/*.ts",
+        "!src/index.ts",
+        "!**/*.{enum,module,schema}.ts",
+        "!**/main.ts",
+        "!**/app.module.ts",
+        "!**/health/*.ts",
+        "!**/shared/*.ts",
+        "!**/*.config.{cjs,js,ts}",
+        "!**/*.d.ts",
+        "!**/node_modules/**",
+    ],
+    moduleFileExtensions: ["ts", "js", "json"],
+    moduleNameMapper: {
+        "@src/(.*)": ["<rootDir>/src/$1"],
+        "@implementacoes/(.*)": ["<rootDir>/src/implementacoes/$1"],
+        "@utils/(.*)": ["<rootDir>/src/utils/$1"],
+        "@test/(.*)": ["<rootDir>/test/$1"],
+    },
+    preset: "ts-jest",
+    testPathIgnorePatterns: ["<rootDir>/node_modules", "<rootDir>/build", "<rootDir>/dist"],
+    testEnvironment: "node",
+    testRegex: "(/__tests__/.*|\\.(test|spec))\\.(ts)$",
+};
