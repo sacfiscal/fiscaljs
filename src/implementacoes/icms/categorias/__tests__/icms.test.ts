@@ -125,9 +125,9 @@ describe("Unit testing for the different ICMS tax calculation methods", () => {
 
         const vBC = icms201.CalcularBaseIcmsProprio();
         const vICMS = icms201.ValorIcmsProprio();
-        const vCredSN = icms201.calculaValorCreditoSN();
+        const vCredSN = icms201.ValorCreditoSN();
         const vBCST = icms201.BaseIcmsST();
-        const vICMSST = icms201.calculaValorIcmsST();
+        const vICMSST = icms201.ValorIcmsST();
 
         expect(vBC).toStrictEqual(177.03);
         expect(vICMS).toStrictEqual(31.87);

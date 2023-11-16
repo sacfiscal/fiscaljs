@@ -72,9 +72,9 @@ export interface IIcms101 {
 export interface IIcms201 {
     CalcularBaseIcmsProprio(): number;
     ValorIcmsProprio(): number;
-    calculaValorCreditoSN(): number;
+    ValorCreditoSN(): number;
     BaseIcmsST(): number;
-    calculaValorIcmsST(): number;
+    ValorIcmsST(): number;
 }
 
 export interface IIcms202 {

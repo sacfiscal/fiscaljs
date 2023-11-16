@@ -98,13 +98,13 @@ export class Icms201 implements IIcms201 {
         return valorIcmsProprio.CalcularValorIcmsProprio();
     }
 
-    calculaValorCreditoSN(): number {
-        const ValorCreditoSN = this.CalcularBaseIcmsProprio() * (this.PercentualCreditoSN / 100);
+    ValorCreditoSN(): number {
+        const valorCreditoSN = this.CalcularBaseIcmsProprio() * (this.PercentualCreditoSN / 100);
 
-        return Utils.roundToNearest(ValorCreditoSN, 2);
+        return Utils.roundToNearest(valorCreditoSN, 2);
     }
 
-    calculaValorIcmsST(): number {
+    ValorIcmsST(): number {
         const valorIcmsST = new ValorIcmsST(
             this.BaseIcmsST(),
             this.AliquotaIcmsST,
