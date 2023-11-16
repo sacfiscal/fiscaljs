@@ -34,11 +34,8 @@ npm install @sacfiscal/fiscaljs
 ```
 
 ## Utilização
-
-### Efetue os imports 
 ```typescript
 import { Icms00, Icms20, Icms90, Icms900 } from '@sacfiscal/fiscaljs';
-...
 
 const icms00 = new Icms00(
     valor_bruto,
@@ -48,6 +45,17 @@ const icms00 = new Icms00(
     ipi_valor,
     valor_desconto_total,
     aliq_icms_proprio,
+);
+
+const icms20 = new Icms20(
+    valor_bruto,
+    valor_frete,
+    valor_seguro,
+    valor_outras_despesas,
+    ipi_valor,
+    valor_desconto_total,
+    aliq_icms_proprio,
+    aliq_reducao_bc
 );
 ```
 
