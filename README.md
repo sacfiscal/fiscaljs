@@ -23,4 +23,33 @@ Portabilidade da biblioteca [**FiscalNet**](https://github.com/sacfiscal/FiscalN
 
 ---
 
+## Instalação
+
+```bash
+yarn add @sacfiscal/fiscaljs
+```
+
+```bash
+npm install @sacfiscal/fiscaljs
+```
+
+## Utilização
+
+### Efetue os imports 
+```typescript
+import { Icms00, Icms20, Icms90, Icms900 } from '@sacfiscal/fiscaljs';
+...
+
+const icms00 = new Icms00(
+    valor_bruto,
+    valor_frete,
+    valor_seguro,
+    valor_outras_despesas,
+    ipi_valor,
+    valor_desconto_total,
+    aliq_icms_proprio,
+);
+```
+
+---
 -   [**Voltar para o índice**](#índice)
