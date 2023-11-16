@@ -1,0 +1,38 @@
+name: CI pipeline
+
+on:
+  pull_request:
+    branches:
+      - "feature/*"
+      - "refactor/*"
+      - "hotfix/*"
+      - "release/*"
+      - "docs/*"
+    paths-ignore:
+      - "**.md" 
+
+jobs:
+  build:
+    name: Node.js v16.x on ubuntu-latest
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+          registry-url: https://registry.npmjs.org/
+          cache: 'yarn'
+      # Print current Node.js version
+      - run: node --version
+      # Print current npm version
+      - run: yarn --version
+      # Print current Git version
+      - run: git --version
+      # Install node_modules
+      - run: yarn install --frozen-lockfile
+      # Run build
+      - run: yarn build
+      # Run code linting
+      - run: yarn lint:fix
+      # Run unit tests with coverage
+      - run: yarn test:cov
