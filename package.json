@@ -1,6 +1,6 @@
 {
     "name": "@sacfiscal/fiscaljs",
-    "version": "1.0.2",
+    "version": "1.0.0",
     "description": "Biblioteca para cálculos fiscais na NFe/NFCe",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
