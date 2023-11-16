@@ -64,6 +64,20 @@ const icms20 = new Icms20(
 const vBC = icms20.BaseReduzidaIcmsProprio();
 const vICMS = icms20.ValorIcmsProprio();
 const vICMSDeson = icms20.ValorIcmsDesonerado();
+
+const icms90 = new Icms90(
+    valor_bruto,
+    valor_frete,
+    valor_seguro,
+    valor_outras_despesas,
+    valor_desconto_total,
+    icms_aliq_proprio,
+    icms_aliq_st,
+    aliq_mva,
+    valor_ipi,
+    aliq_reducao_bc,
+    aliq_reducao_bc_st,
+);
 ```
 > Você pode ver todos as funções disponíveis nas [interfaces](src/interfaces/) disponíveis para entender as propriedades e funções disponíveis em cada categoria de [ICMS](src/interfaces/icms/categorias.ts), [FCP](src/interfaces/icms/fcp.ts), [IPI](src/interfaces/ipi/index.ts), [PIS](src/interfaces/pis/index.ts) & [COFINS](src/interfaces/cofins/index.ts).
 
