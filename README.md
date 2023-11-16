@@ -11,7 +11,7 @@
 
 ## Sobre o projeto
 
-Portabilidade da biblioteca [**FiscalNet**](https://github.com/sacfiscal/FiscalNet/tree/master), escrita em C#, para TypeScript. Contém as implementações de cálculos tributários para emissão de documentos fiscais eletrônicos no Brasil.
+Portabilidade da biblioteca [**FiscalNet**](https://github.com/sacfiscal/FiscalNet/tree/master) feita por [**Cristiano Júnior da Cruz**](https://github.com/cristiano-linvix) para TypeScript. Contém as implementações de cálculos tributários para emissão de documentos fiscais eletrônicos no Brasil.
 
 ## Tributações suportadas
 
@@ -47,6 +47,9 @@ const icms00 = new Icms00(
     aliq_icms_proprio,
 );
 
+const vBC = icms00.BaseIcmsProprio();
+const vICMS = icms00.ValorIcmsProprio();
+
 const icms20 = new Icms20(
     valor_bruto,
     valor_frete,
@@ -57,7 +60,13 @@ const icms20 = new Icms20(
     aliq_icms_proprio,
     aliq_reducao_bc
 );
+
+const vBC = icms20.BaseReduzidaIcmsProprio();
+const vICMS = icms20.ValorIcmsProprio();
+const vICMSDeson = icms20.ValorIcmsDesonerado();
 ```
+> Você pode ver todos as funções disponíveis nas [interfaces](src/interfaces/) disponíveis para entender as propriedades e funções disponíveis em cada categoria de [ICMS](src/interfaces/icms/categorias.ts), [FCP](src/interfaces/icms/fcp.ts), [IPI](src/interfaces/ipi/index.ts), [PIS](src/interfaces/pis/index.ts) & [COFINS](src/interfaces/cofins/index.ts).
 
 ---
--   [**Voltar para o índice**](#índice)
+
+Biblioteca portada por [Cristiano Júnior da Cruz](https://github.com/cristiano-linvix)
