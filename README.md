@@ -1,10 +1,10 @@
-# Calculadora Tributária (FiscalJS)
+# Calculadora Tributária (fiscaljs)
 
-![Build & Publish](https://github.com/sacfiscal/FiscalJS/actions/workflows/npm-publish.yml/badge.svg)
+![Build & Publish](https://github.com/sacfiscal/fiscaljs/actions/workflows/npm-publish.yml/badge.svg)
 
 ## Índice
 
--   [Calculadora Tributária (FiscalJS)](#calculadora-tributária-FiscalJS)
+-   [Calculadora Tributária (fiscaljs)](#calculadora-tributária-fiscaljs)
     -   [Índice](#índice)
     -   [Sobre o projeto](#sobre-o-projeto)
     -   [Tributações suportadas](#tributações-suportadas)
