@@ -34,8 +34,11 @@ npm install @sacfiscal/fiscaljs
 ```
 
 ## Utilização
+
+[Exemplos](examples/README.md)
+
 ```typescript
-import { Icms00, Icms20, Icms90, Icms900 } from '@sacfiscal/fiscaljs';
+import { Icms00, Icms20, Icms90, Icms900 } from "@sacfiscal/fiscaljs";
 
 const icms00 = new Icms00(
     valor_bruto,
@@ -58,7 +61,7 @@ const icms20 = new Icms20(
     ipi_valor,
     valor_desconto_total,
     aliq_icms_proprio,
-    aliq_reducao_bc
+    aliq_reducao_bc,
 );
 
 const vBC = icms20.BaseReduzidaIcmsProprio();
@@ -79,6 +82,17 @@ const icms90 = new Icms90(
     aliq_reducao_bc_st,
 );
 ```
+
+## Testes
+
+Você pode rotar os testes unitários com o comando `yarn test` para garantir a integridade da biblioteca.
+Os testes ficam dentro das pastas __tests__ em cada implementação.
+
+```bash
+yarn test
+```
+
+
 > Você pode ver todos as funções disponíveis nas [interfaces](src/interfaces/) disponíveis para entender as propriedades e funções disponíveis em cada categoria de [ICMS](src/interfaces/icms/categorias.ts), [FCP](src/interfaces/icms/fcp.ts), [IPI](src/interfaces/ipi/index.ts), [PIS](src/interfaces/pis/index.ts) & [COFINS](src/interfaces/cofins/index.ts).
 
 ---
