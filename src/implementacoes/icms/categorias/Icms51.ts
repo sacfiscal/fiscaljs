@@ -7,6 +7,11 @@ import { BaseReduzidaIcmsProprio } from "../components/BaseReduzidaIcmsProprio";
 import { ValorIcmsProprio } from "../components/ValorIcmsProprio";
 
 /**
+ * Portabilidade de biblioteca https://github.com/sacfiscal/FiscalNet
+ * Desenvolvido por Cristiano Junior da Cruz (https://github.com/cristiano-linvix)
+ */
+
+/**
  * 51 - Diferimento
  */
 export class Icms51 implements IIcms51 {

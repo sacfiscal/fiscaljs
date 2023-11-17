@@ -3,6 +3,11 @@ import Utils from "@utils/index";
 
 import { BaseIPI } from "./BaseIPI";
 
+/**
+ * Portabilidade de biblioteca https://github.com/sacfiscal/FiscalNet
+ * Desenvolvido por Cristiano Junior da Cruz (https://github.com/cristiano-linvix)
+ */
+
 export class Ipi50AdValorem implements IIpi50AdValorem {
     private ValorProduto: number;
     private ValorFrete: number;

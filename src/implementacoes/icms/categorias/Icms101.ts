@@ -4,6 +4,11 @@ import { IIcms101 } from "@interfaces/icms";
 import { BaseIcmsProprio } from "../components/BaseIcmsProprio";
 import { BaseReduzidaIcmsProprio } from "../components/BaseReduzidaIcmsProprio";
 
+/**
+ * Portabilidade de biblioteca https://github.com/sacfiscal/FiscalNet
+ * Desenvolvido por Cristiano Junior da Cruz (https://github.com/cristiano-linvix)
+ */
+
 export class Icms101 implements IIcms101 {
     private ValorProduto: number;
     private ValorFrete: number;

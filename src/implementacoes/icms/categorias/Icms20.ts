@@ -6,6 +6,11 @@ import { BaseReduzidaIcmsProprio } from "../components/BaseReduzidaIcmsProprio";
 import { Icms00 } from "./Icms00";
 
 /**
+ * Portabilidade de biblioteca https://github.com/sacfiscal/FiscalNet
+ * Desenvolvido por Cristiano Junior da Cruz (https://github.com/cristiano-linvix)
+ */
+
+/**
  * 20 - Tributada com redução de Base de cálculo
  */
 export class Icms20 implements IIcms20 {

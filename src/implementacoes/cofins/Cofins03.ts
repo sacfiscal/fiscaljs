@@ -2,6 +2,11 @@ import { ICofins03 } from "@interfaces/cofins";
 
 import Utils from "@utils/index";
 
+/**
+ * Portabilidade de biblioteca https://github.com/sacfiscal/FiscalNet
+ * Desenvolvido por Cristiano Junior da Cruz (https://github.com/cristiano-linvix)
+ */
+
 export class Cofins03 implements ICofins03 {
     // A Base de COFINS será a Quantidade (qTrib) do produto na operação
     private BaseCalculo: number;

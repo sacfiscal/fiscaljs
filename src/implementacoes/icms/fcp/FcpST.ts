@@ -1,6 +1,11 @@
 import { IFcpST } from "@interfaces/icms";
 import Utils from "@utils/index";
 
+/**
+ * Portabilidade de biblioteca https://github.com/sacfiscal/FiscalNet
+ * Desenvolvido por Cristiano Junior da Cruz (https://github.com/cristiano-linvix)
+ */
+
 export class FcpST implements IFcpST {
     private BaseCalculoST: number;
     private AliquotaFCPST: number;

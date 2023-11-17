@@ -4,6 +4,11 @@ import { BaseCofins } from "./BaseCofins";
 
 import Utils from "@utils/index";
 
+/**
+ * Portabilidade de biblioteca https://github.com/sacfiscal/FiscalNet
+ * Desenvolvido por Cristiano Junior da Cruz (https://github.com/cristiano-linvix)
+ */
+
 export class Cofins01 implements ICofins01 {
     private ValorProduto: number;
     private ValorFrete: number;

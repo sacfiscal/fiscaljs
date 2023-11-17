@@ -2,6 +2,11 @@ import { IIpiEspecifico } from "@interfaces/ipi";
 
 import Utils from "@utils/index";
 
+/**
+ * Portabilidade de biblioteca https://github.com/sacfiscal/FiscalNet
+ * Desenvolvido por Cristiano Junior da Cruz (https://github.com/cristiano-linvix)
+ */
+
 export class Ipi50Especifico implements IIpiEspecifico {
     /**
      * A Base de IPI será a Quantidade (qTrib) do produto na operação

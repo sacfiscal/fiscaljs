@@ -8,6 +8,11 @@ import { ValorIcmsST } from "../components/ValorIcmsST";
 import { ValorIcmsProprio } from "../components/ValorIcmsProprio";
 
 /**
+ * Portabilidade de biblioteca https://github.com/sacfiscal/FiscalNet
+ * Desenvolvido por Cristiano Junior da Cruz (https://github.com/cristiano-linvix)
+ */
+
+/**
  * 30 - Isenta ou não tributada e com cobrança do ICMS por substituição tributária
  */
 export class Icms30 implements IIcms30 {

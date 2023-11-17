@@ -9,6 +9,11 @@ import { ValorIcmsST } from "@implementacoes/icms/components/ValorIcmsST";
 import { IIcms10 } from "@interfaces/icms";
 
 /**
+ * Portabilidade de biblioteca https://github.com/sacfiscal/FiscalNet
+ * Desenvolvido por Cristiano Junior da Cruz (https://github.com/cristiano-linvix)
+ */
+
+/**
  * 10 - Tributada e com cobrança do ICMS por substituição tributária
  */
 export class Icms10 implements IIcms10 {

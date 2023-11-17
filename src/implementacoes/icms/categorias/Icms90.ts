@@ -12,6 +12,11 @@ import { Icms00 } from "./Icms00";
 import { Icms10 } from "./Icms10";
 
 /**
+ * Portabilidade de biblioteca https://github.com/sacfiscal/FiscalNet
+ * Desenvolvido por Cristiano Junior da Cruz (https://github.com/cristiano-linvix)
+ */
+
+/**
  * 90 - Outras
  */
 export class Icms90 implements IIcms90 {

@@ -1,6 +1,11 @@
 import { IFcpDif } from "@interfaces/icms";
 import Utils from "@utils/index";
 
+/**
+ * Portabilidade de biblioteca https://github.com/sacfiscal/FiscalNet
+ * Desenvolvido por Cristiano Junior da Cruz (https://github.com/cristiano-linvix)
+ */
+
 export class FcpDiferido implements IFcpDif {
     private ValorFCP: number;
     private AliquotaDiferimentoFCP: number;

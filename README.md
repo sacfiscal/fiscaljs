@@ -90,6 +90,8 @@ Os testes ficam dentro das pastas __tests__ em cada implementação.
 
 ```bash
 yarn test
+yarn test:watch
+yarn test:watchAll
 ```
 
 

@@ -10,6 +10,11 @@ import { BaseReduzidaIcmsProprio } from "../components/BaseReduzidaIcmsProprio";
 import { ValorIcmsST } from "../components/ValorIcmsST";
 import { ValorIcmsProprio } from "../components/ValorIcmsProprio";
 
+/**
+ * Portabilidade de biblioteca https://github.com/sacfiscal/FiscalNet
+ * Desenvolvido por Cristiano Junior da Cruz (https://github.com/cristiano-linvix)
+ */
+
 export class Icms201 implements IIcms201 {
     private ValorProduto: number;
     private ValorFrete: number;

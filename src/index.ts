@@ -1,3 +1,8 @@
+/**
+ * Portabilidade de biblioteca https://github.com/sacfiscal/FiscalNet
+ * Desenvolvido por Cristiano Junior da Cruz (https://github.com/cristiano-linvix)
+ */
+
 export * from "@implementacoes/icms/components/BaseReduzidaIcmsProprio";
 export * from "@implementacoes/icms/components/BaseReduzidaIcmsST";
 export * from "@implementacoes/icms/components/BaseIcmsProprio";

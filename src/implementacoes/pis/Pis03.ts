@@ -2,6 +2,11 @@ import { IPis03 } from "@interfaces/pis";
 
 import Utils from "@utils/index";
 
+/**
+ * Portabilidade de biblioteca https://github.com/sacfiscal/FiscalNet
+ * Desenvolvido por Cristiano Junior da Cruz (https://github.com/cristiano-linvix)
+ */
+
 export class Pis03 implements IPis03 {
     // A Base de PIS será a Quantidade (qTrib) do produto na operação
     private BaseCalculo: number;

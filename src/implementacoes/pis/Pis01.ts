@@ -4,6 +4,11 @@ import { BasePIS } from "./BasePIS";
 
 import Utils from "@utils/index";
 
+/**
+ * Portabilidade de biblioteca https://github.com/sacfiscal/FiscalNet
+ * Desenvolvido por Cristiano Junior da Cruz (https://github.com/cristiano-linvix)
+ */
+
 export class Pis01 implements IPis01 {
     private ValorProduto: number;
     private ValorFrete: number;

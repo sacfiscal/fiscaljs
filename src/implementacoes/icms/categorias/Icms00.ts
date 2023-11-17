@@ -4,6 +4,11 @@ import { BaseIcmsProprio } from "../components/BaseIcmsProprio";
 import { ValorIcmsProprio } from "../components/ValorIcmsProprio";
 
 /**
+ * Portabilidade de biblioteca https://github.com/sacfiscal/FiscalNet
+ * Desenvolvido por Cristiano Junior da Cruz (https://github.com/cristiano-linvix)
+ */
+
+/**
  * 00 - Tributada integralmente
  */
 export class Icms00 implements IIcms00 {
