@@ -93,6 +93,6 @@ yarn test
 ```
 
 
-> Você pode ver todos as funções disponíveis nas [interfaces](src/interfaces/) disponíveis para entender as propriedades e funções disponíveis em cada categoria de [ICMS](src/interfaces/icms/categorias.ts), [FCP](src/interfaces/icms/fcp.ts), [IPI](src/interfaces/ipi/index.ts), [PIS](src/interfaces/pis/index.ts) & [COFINS](src/interfaces/cofins/index.ts).
+> Você pode ver todas as funções disponíveis nas [interfaces](src/interfaces/) disponíveis para entender as propriedades e funções disponíveis em cada categoria de [ICMS](src/interfaces/icms/categorias.ts), [FCP](src/interfaces/icms/fcp.ts), [IPI](src/interfaces/ipi/index.ts), [PIS](src/interfaces/pis/index.ts) & [COFINS](src/interfaces/cofins/index.ts).
 
 ---
