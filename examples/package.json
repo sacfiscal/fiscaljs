@@ -1,0 +1,11 @@
+{
+    "name": "examples",
+    "type": "module",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "@linvix-sistemas/calculadora-tributaria-js": "^1.0.17",
+        "@sacfiscal/fiscaljs": "^1.0.3"
+    }
+}
